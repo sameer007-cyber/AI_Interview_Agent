@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.ruff_cache/
+
+# Node
+node_modules/
+.next/
+out/
+
+# Environment - NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# Data - too large for git
+backend/uploads/
+backend/chroma_db/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
