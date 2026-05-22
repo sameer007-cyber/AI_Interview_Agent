@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+uploads/
+chroma_db/
+.ruff_cache/
+tests/
+*.log
