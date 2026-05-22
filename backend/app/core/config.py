@@ -36,7 +36,7 @@ class Settings(BaseSettings):
     max_upload_size_mb: int = 10
 
     # CORS
-    cors_origins: List[str] = ["http://localhost:3000", "http://127.0.0.1:3000"]
+    cors_origins: List[str] = ["http://localhost:3000", "http://127.0.0.1:3000", "https://ai-interview-agent-seven.vercel.app",]
 
     @field_validator("cors_origins", mode="before")
     @classmethod
