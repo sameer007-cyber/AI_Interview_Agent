@@ -23,3 +23,13 @@ backend/chroma_db/
 .DS_Store
 Thumbs.db
 *.log
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+backend/.venv/
+frontend/node_modules/
+frontend/.next/
+backend/chroma_db/
+backend/uploads/
